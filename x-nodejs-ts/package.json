@@ -1,0 +1,6 @@
+{
+  "name": "x-nodejs-ts",
+  "version": "0.1.0",
+  "description": "x-template for nodejs/ts project",
+  "private": true
+}

@@ -1,0 +1,6 @@
+{
+  "name": "x-cordova-ts-parcel",
+  "version": "0.1.0",
+  "description": "x-template for cordova/ts project",
+  "private": true
+}

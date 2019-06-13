@@ -3,5 +3,5 @@
 ## Usage
 
 ```bash
-npx arzyu/create-x -i arzyu/x-index <new-project-dir>
+npx arzyu/create-x -i arzyu/x-index <NEW-PROJECT-DIR>
 ```

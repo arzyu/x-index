@@ -4,7 +4,8 @@
   "description": "x-template description",
   "scripts": {
     "start": "parcel src/index.html --out-dir www",
-    "android": "cordova run android"
+    "android": "cordova run android",
+    "ios": "cordova run ios"
   },
   "devDependencies": {
     "cordova": "^9.0.0",
@@ -13,14 +14,16 @@
     "typescript": "^3.5.1"
   },
   "dependencies": {
-    "cordova-android": "^8.0.0"
+    "cordova-android": "^8.0.0",
+    "cordova-ios": "^5.0.1"
   },
   "cordova": {
     "plugins": {
       "cordova-plugin-whitelist": {}
     },
     "platforms": [
-      "android"
+      "android",
+      "ios"
     ]
   },
   "private": true

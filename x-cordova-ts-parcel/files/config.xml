@@ -17,8 +17,8 @@
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
   </platform>
-  <hook type="after_prepare" src="scripts/fix-line-feed.sh" />
-  <hook type="after_platform_add" src="scripts/fix-line-feed.sh" />
-  <hook type="after_plugin_add" src="scripts/fix-line-feed.sh" />
-  <hook type="after_plugin_rm" src="scripts/fix-line-feed.sh" />
+  <hook type="after_prepare" src="scripts/ensure-line-feed.sh" />
+  <hook type="after_platform_add" src="scripts/ensure-line-feed.sh" />
+  <hook type="after_plugin_add" src="scripts/ensure-line-feed.sh" />
+  <hook type="after_plugin_rm" src="scripts/ensure-line-feed.sh" />
 </widget>

@@ -1,0 +1,40 @@
+{
+  "name": "x-template",
+  "version": "0.0.1",
+  "description": "x-template description",
+  "scripts": {
+    "start": "NODE_ENV=development zero-webpack --dev-server",
+    "build": "zero-webpack",
+    "start:android": "cordova run android --buildConfig",
+    "start:android-release": "cordova run android --buildConfig --release",
+    "start:ios": "cordova run ios --buildConfig",
+    "start:ios-release": "cordova run ios --buildConfig --release",
+    "build:android-release": "cordova build android --buildConfig --release",
+    "build:ios-release": "cordova build ios --buildConfig --release --packageType='app-store'"
+  },
+  "devDependencies": {
+    "zero-webpack": "github:arzyu/zero-webpack",
+    "zero-webpack-cordova": "github:arzyu/zero-webpack-cordova",
+    "zero-webpack-custom-0": "github:arzyu/zero-webpack-custom-0",
+    "zero-webpack-ts": "github:arzyu/zero-webpack-ts",
+    "typescript": "^3.5.1"
+  },
+  "dependencies": {
+    "cordova": "^9.0.0",
+    "cordova-android": "^8.0.0",
+    "cordova-ios": "^5.0.1",
+    "cordova-plugin-fullscreen": "^1.2.0",
+    "cordova-plugin-whitelist": "^1.3.3"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-fullscreen": {}
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "private": true
+}

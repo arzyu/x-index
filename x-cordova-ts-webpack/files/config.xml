@@ -17,6 +17,7 @@
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
   </platform>
+  <preference name="Fullscreen" value="true" />
   <hook src="scripts/ensure-line-feed.sh" type="after_prepare" />
   <hook src="scripts/ensure-line-feed.sh" type="after_platform_add" />
   <hook src="scripts/ensure-line-feed.sh" type="after_plugin_add" />

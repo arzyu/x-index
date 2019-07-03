@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "x-template description",
   "scripts": {
-    "start": "NODE_ENV=development zero-webpack --dev-server",
+    "dev:server": "NODE_ENV=development zero-webpack --dev-server",
+    "dev:android": "CORDOVA_DEV_PLATFORM=android npm run dev:server",
+    "dev:ios": "CORDOVA_DEV_PLATFORM=ios npm run dev:server",
     "build": "zero-webpack",
     "start:android": "cordova run android --buildConfig",
     "start:android-release": "cordova run android --buildConfig --release",

@@ -10,3 +10,6 @@
 [submodule "x-cordova-ts-parcel"]
 	path = x-cordova-ts-parcel
 	url = git@github.com:arzyu/x-cordova-ts-parcel
+[submodule "x-python"]
+	path = x-python
+	url = git@github.com:arzyu/x-python

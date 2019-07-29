@@ -1,15 +1,15 @@
 [submodule "x-nodejs-ts"]
 	path = x-nodejs-ts
-	url = git@github.com:arzyu/x-nodejs-ts
+	url = https://github.com/arzyu/x-nodejs-ts
 [submodule "x-nodejs-ts-koa"]
 	path = x-nodejs-ts-koa
-	url = git@github.com:arzyu/x-nodejs-ts-koa
+	url = https://github.com/arzyu/x-nodejs-ts-koa
 [submodule "x-cordova-ts-webpack"]
 	path = x-cordova-ts-webpack
-	url = git@github.com:arzyu/x-cordova-ts-webpack
+	url = https://github.com/arzyu/x-cordova-ts-webpack
 [submodule "x-cordova-ts-parcel"]
 	path = x-cordova-ts-parcel
-	url = git@github.com:arzyu/x-cordova-ts-parcel
+	url = https://github.com/arzyu/x-cordova-ts-parcel
 [submodule "x-python"]
 	path = x-python
-	url = git@github.com:arzyu/x-python
+	url = https://github.com/arzyu/x-python

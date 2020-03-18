@@ -7,9 +7,6 @@
 [submodule "x-cordova-ts-webpack"]
 	path = x-cordova-ts-webpack
 	url = https://github.com/arzyu/x-cordova-ts-webpack
-[submodule "x-cordova-ts-parcel"]
-	path = x-cordova-ts-parcel
-	url = https://github.com/arzyu/x-cordova-ts-parcel
 [submodule "x-python"]
 	path = x-python
 	url = https://github.com/arzyu/x-python
